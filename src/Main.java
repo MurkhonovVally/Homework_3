@@ -27,9 +27,9 @@ public class Main {
     }
         //Задача 2
         public static void task2() {
-            float one = (float)27.12;
+            float one = 27.12f;
             long two = 987678965549L;
-            float three = (float)2.786;
+            float three = 2.786f;
             long four = 569;
             long five = -159;
             long six = 27897;
@@ -135,6 +135,6 @@ public class Main {
             System.out.println("Денис теперь получает " + increaseDen + " рублей. Годовой доход вырос на " + diffDen + " рублей");
             System.out.println("Кристина теперь получает " + increaseKris + " рублей. Годовой доход вырос на " + diffKris + " рублей");
             //Можно было бы и проще, но я захотел больше печатать.}
-            
+
         }
 }
